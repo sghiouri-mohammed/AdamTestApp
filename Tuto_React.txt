@@ -1,0 +1,50 @@
+1 - Install Nodejs
+
+2 - npm install create-react-app
+
+3 - create new dir
+
+4 - create-react-app Nom_APP
+
+5 - cd to the react-app
+
+6 - npm start
+
+
+7 - (installer le react dom) npm install --save react-router-dom
+ et entrer ce code en tete de la page App.js :
+
+        import {
+        BrowserRouter as Router,
+        Routes,
+        Route
+        } from "react-router-dom";
+
+8 - (Bootstrap) : npm install react-bootstrap bootstrap (facultatif)
+
+ <Router>
+    <Routes>
+    <Route path="/connexion" element={<Connexion />} />
+    <Route path="/home" element={<Home />} />
+    </Routes>
+</Router>
+
+
+
+
+Devoir :
+
+Creer une page avec au minimum 5 (sans compter le Nav et le Footer)
+implementer une page avec un formulaire
+le boutton qui permer d'afficher et cacher une Div
+Pour le css
+2 pages avec leurs propre css
+
+le reste avec le meme fichier css (style.css)
+
+implemente des fonctions de ton choix
+exemple: prendre la valeur d'un input d'un formulaire et afficher sa valeur dans
+la page web (document.getElementById("in").value) (innerText)
+
+
+
