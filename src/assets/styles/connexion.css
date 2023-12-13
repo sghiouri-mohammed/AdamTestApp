@@ -1,0 +1,17 @@
+
+.paragraph-connexion{
+    color: red;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.div-paragraph-connexion{
+    padding: 30px;
+    background-color: blueviolet;
+    text-align: center;    
+}
+
+#para{
+    display: block;
+}
